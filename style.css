@@ -18,6 +18,10 @@ h3 {
   color:white;
   text-align: center;
 }
+p {
+  color: white;
+  text-align: center;
+}
 
 @font-face {
     font-family: sans-serif;
