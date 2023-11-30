@@ -1,0 +1,12 @@
+Ideas:
+Spotify/music themes website
+Playlist
+Wrapped
+Small bio about each person
+Collaborative playlist (blend)
+Song randomizer (array of 10 songs per each person -> select random)
+
+Colors:
+Black: #000
+White: #fff
+Spotify green: #3ad760
