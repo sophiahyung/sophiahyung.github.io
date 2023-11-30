@@ -14,3 +14,8 @@ h2 {
   color:white;
   text-align: center;
 }
+
+@font-face {
+    font-family: sans-serif;
+    src: url(ArianaVioleta-dz2K.ttf);
+}
