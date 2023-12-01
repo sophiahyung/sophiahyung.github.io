@@ -34,7 +34,9 @@ h2 {
 }
 .About-Sophia {
   color:white;
+  float:left;
 }
 .About-Hailey {
   color:white;
+  float:right;
 }
