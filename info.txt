@@ -1,12 +1,19 @@
 Ideas:
-Spotify/music themes website
-Playlist
-Wrapped
-Small bio about each person
-Collaborative playlist (blend)
-Song randomizer (array of 10 songs per each person -> select random)
+- Spotify/music themes website
+- Playlist
+- Wrapped
+- Small bio about each person
+- Collaborative playlist (blend)
+- Song randomizer (array of 10 songs per each person -> select random)
 
 Colors:
-Black: #000
-White: #fff
-Spotify green: #3ad760
+- Black: #000
+- White: #fff
+- Spotify green: #3ad760
+
+Hailey's 5 Songs:
+1. we fell in love in october by girl in red
+2. Dark Paradise by Lana Del Rey
+3. Don't Let Me Go by Cigarettes After Sex
+4. In My Mind by Lyn Lapid
+5. Heavenly by Cigarettes After Sex
