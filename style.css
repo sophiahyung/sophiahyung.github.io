@@ -20,7 +20,7 @@ h2 {
 }
 .abtSophia {
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 @font-face {
@@ -28,15 +28,13 @@ h2 {
     src: url(Gotham-Bold.otf);
 }
 .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  display: flex;
 }
 .About-Sophia {
   color:white;
-  float:left;
+  flex-grow: 1;
 }
 .About-Hailey {
   color:white;
-  float:right;
+  flex-grow: 1;
 }
