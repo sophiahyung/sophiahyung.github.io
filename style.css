@@ -17,14 +17,6 @@ h2 {
   color:white;
   text-align: center;
 }
-.aboutSophia {
-  color:white;
-}
-.abtSophia {
-  color: white;
-  flex-grow: 1;
-  flex-direction: column;
-}
 
 @font-face {
     font-family: sans-serif;
