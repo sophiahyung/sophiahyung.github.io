@@ -19,6 +19,8 @@ h2 {
 }
 .abtSophia {
   color: white;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 @font-face {
