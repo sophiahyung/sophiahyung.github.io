@@ -6,6 +6,9 @@ body {
   background-color:black;
   font-family: sans-serif;
 }
+.grid-container {
+  display: flex;
+}
 h1 {
   color: rgb(58, 215, 90);
   text-align: center;
@@ -26,9 +29,6 @@ h2 {
 @font-face {
     font-family: sans-serif;
     src: url(Gotham-Bold.otf);
-}
-.grid-container {
-  display: flex;
 }
 .About-Sophia {
   color:white;
