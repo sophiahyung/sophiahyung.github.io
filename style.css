@@ -24,11 +24,11 @@ h2 {
 }
 .About-Sophia {
   color:white;
-  flex-grow: 2;
+  align-items: column;
 }
 .About-Hailey {
   color:white;
-  flex-grow: 1;
+  align-items: column;
 }
 
 .randomButton {
