@@ -81,7 +81,7 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
+  background-color:rgb(58, 215, 90);
   border: none;
   border-radius: 15px;
 }
@@ -89,6 +89,7 @@ button {
   color:white;
   display:flex;
   justify-content: center;
+  font-size: 20px;
 }
 
 #randomizedNodeID {
