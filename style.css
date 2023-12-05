@@ -8,6 +8,8 @@ body {
 }
 .grid-container {
   display: flex;
+  justify-content : space-between;
+  align-items: centre;
 }
 h1 {
   color: rgb(58, 215, 90);
@@ -22,26 +24,56 @@ h2 {
     font-family: sans-serif;
     src: url(Gotham-Bold.otf);
 }
-.About-Sophia {
-  color:white;
-  align-items: column;
+#aboutSophia{
+  color: white;
+  text-align:center;
 }
-.About-Hailey {
+#sophiaBio {
   color:white;
-  align-items: column;
+  align-items:column; 
 }
 
+#aboutHailey{
+  color:white;
+  text-align:center;
+}
+#haileyBio{
+  color:white;
+}
+
+.child1{
+  
+}
+.child2{
+  
+}
 .randomButton {
   background-color: white;
   color: green;
   border: 2px solid #04AA6D;
+
 }
 
 .randomButton:hover {
   background-color: #04AA6D;
   color: white;
+}
+.allOfButtonIncludingOutput{
+  display:flex;
+  justify-content: center;
+}
+button {
+  background: white; 
+  color: #04AA6D;}
+#output {
+  color:white;
+  display:flex;
+  justify-content: center;
+}
 
-.output {
-  text-align:center;
-  color: #fff !important;
+#randomizedNodeID {
+  color:white; 
+  display:flex;
+  justify-content: space-between;
+  margin-left: 7px;
 }

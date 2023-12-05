@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="icon" type="image/x-icon" href="/images/shrek.ico">
-  </head>
-  <body> 
-    <h1 id="Title">Music Website</h1>
-    <h2 id="subTitle">By Sophia and Hailey</h2>
-    <div class = "grid-container">
-    <h3 id="aboutSophiaTitle" class="About-Sophia"> About Sophia</h3>
-    <p id="aboutSophiaBlurb" class="About-Sophia">Sophia was born on February 15th 2008, making her 15 years old.  She is a sophomore at New Wester Charter and plays on the varsity volleyball team. Her favorite song of all time is Dancing Queen by ABBA, and her favorite artist is TV Girl.  </p>
-    <h4 id="aboutHaileyTitle" class="About-Hailey"> About Hailey</h4>
-    <p id="aboutHaileyBlurb" class="About-Hailey"></p>
-      <br></br>
-      <button onclick="Randomizer()" class="randomButton">Pick a Random Song!</button>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - redo for comp sci final</title>
+  <link rel="stylesheet" href="./style.css">
 
-      <span id="randomizedNodeID" id="output" class="output"></span>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="icon" type="image/x-icon" href="/images/shrek.ico">
+</head>
+
+<body>
+  <h1 id="Title">Music Website</h1>
+  <h2 id="subTitle">By Sophia and Hailey</h2>
+  <div class="grid-container">
+    <div class="child1">
+      <h3 id="aboutSophia">All About Sophia</h3>
+      <p id="sophiaBio">Sophia was born on February 15th 2008, making her 15 years old. She is a sophomore at New Wester Charter and plays on the varsity volleyball team. Her favorite song of all time is Dancing Queen by ABBA, and her favorite artist is TV Girl. </p>
     </div>
-  </body>
+
+  <div class="child2">
+    <h4 id="aboutHailey">All About Haley</h4>
+    <p id="haileyBio">Sophia was born on February 15th 2008, making her 15 years old. She is a sophomore at New Wester Charter and plays on the varsity volleyball team. Her favorite song of all time is Dancing Queen by ABBA, and her favorite artist is TV Girl. </p>
+  </div>
+    <br></br>
+  </div>
+
+  <div class="allOfButtonIncludingOutput">
+<button onclick="Randomizer()" class="randomButton">Pick a Random Song!</button>
+<span id="randomizedNodeID"></span>
+  </div>
+ 
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>
