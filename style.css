@@ -8,24 +8,32 @@ body {
   margin-left:50px;
   margin-right:50px;
 }
+
+/* flexbox container */
 .grid-container {
   display: flex;
   justify-content: space-between;
   align-items: centre;
 }
+
+/* color for h1 and h2 as well as tex alignment */
 h1 {
   color: rgb(58, 215, 90);
   text-align: center;
 }
+
 h2 {
   color:white;
   text-align: center;
 }
 
+/* font used for the website */
 @font-face {
     font-family: sans-serif;
     src: url(Gotham-Bold.otf);
 }
+
+/* color and text alignment for Sophia About and Bio as well as Hailey About and Bio */
 #aboutSophia{
   color: white;
   text-align:center;
@@ -47,16 +55,11 @@ h2 {
   text-align: center;
 }
 
+/* margin for hailey's playlist */
 #haileyPlaylist {
   margin-left: 85px;
 }
 
-.child1{
-  
-}
-.child2{
-  
-}
 /* .randomButton {
   background-color: white;
   color: green;
@@ -64,6 +67,7 @@ h2 {
 
 } */
 
+/* hover functionality for the random song button */
 .randomButton:hover {
   background-color: #04AA6D;
   color: white;
@@ -72,6 +76,8 @@ h2 {
   display:flex;
   justify-content: center;
 }
+
+/* button formatting */
 button {
   display: inline-block;
   padding: 15px 25px;
@@ -85,6 +91,8 @@ button {
   border: none;
   border-radius: 15px;
 }
+
+/* output formatting*/
 #output {
   color:white;
   display:flex;
