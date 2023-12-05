@@ -48,7 +48,7 @@ h2 {
 }
 
 #haileyPlaylist {
-  margin-left: 75px;
+  margin-left: 80px;
 }
 
 .child1{
@@ -57,12 +57,12 @@ h2 {
 .child2{
   
 }
-.randomButton {
+/* .randomButton {
   background-color: white;
   color: green;
   border: 2px solid #04AA6D;
 
-}
+} */
 
 .randomButton:hover {
   background-color: #04AA6D;
@@ -81,7 +81,7 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color:rgb(58, 215, 90);
+  background-color: #04AA6D;
   border: none;
   border-radius: 15px;
 }
