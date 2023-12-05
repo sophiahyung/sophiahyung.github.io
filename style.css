@@ -48,7 +48,7 @@ h2 {
 }
 
 #haileyPlaylist {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .child1{
@@ -73,8 +73,18 @@ h2 {
   justify-content: center;
 }
 button {
-  background: white; 
-  color: #04AA6D;}
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+}
 #output {
   color:white;
   display:flex;
