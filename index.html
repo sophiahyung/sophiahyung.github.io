@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--the linking from html to the css and js  -->
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
@@ -16,6 +17,7 @@
   <link rel="icon" type="image/x-icon" href="/images/shrek.ico">
 </head>
 
+<!--   top Part of the website, title, heading, and bios -->
 <body>
   <h1 id="Title">Music Website</h1>
   <h2 id="subTitle">By Sophia and Hailey</h2>
@@ -32,15 +34,17 @@
     <br></br>
   </div>
 
+<!--   Playlists -->
   <h5>Playlists</h5>
-<!--   Sophia's Playlist -->
+<!--   Sophia's Playlist with embedded link -->
 <iframe id="sophiaPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Blq1GRLLMaLrSmZ3oKfCS?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <!--   <h7>Hailey's Playlist</h7> -->
+  <!-- Hailey's Playlist with embedded link -->
 <iframe id="haileyPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/31zKQePSqTK1V5rLPtzWbW?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br></br>
+<!--   Embedded link for the blended playlist -->
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0SWUWfyevWosqMmYs2becD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-  
+<!--   The button for the randomized songs along with the output (span) -->
   <div class="allOfButtonIncludingOutput">
 <button onclick="Randomizer()" class="randomButton">Pick a Random Song!</button>
 <span id="randomizedNodeID"></span>
