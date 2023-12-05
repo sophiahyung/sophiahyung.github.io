@@ -10,7 +10,7 @@ body {
 }
 .grid-container {
   display: flex;
-  justify-content : space-between;
+  justify-content: space-between;
   align-items: centre;
 }
 h1 {
@@ -33,6 +33,7 @@ h2 {
 #sophiaBio {
   color:white;
   align-items:column; 
+  text-align: center;
 }
 
 #aboutHailey{
@@ -42,6 +43,7 @@ h2 {
 #haileyBio{
   color:white;
   margin-left: 50px;
+  text-align: center;
 }
 
 .child1{
