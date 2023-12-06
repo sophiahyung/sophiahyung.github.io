@@ -70,13 +70,6 @@ h2 {
   margin-left: 80px;
 }
 
-/* .randomButton {
-  background-color: white;
-  color: green;
-  border: 2px solid #04AA6D;
-
-} */
-
 /* hover functionality for the random song button */
 .randomButton:hover {
   background-color: #04AA6D;
