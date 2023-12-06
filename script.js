@@ -6,3 +6,9 @@ function Randomizer() {
     console.log(`selected song: ${selectedItem}`)
     document.getElementById(`randomizedNodeID`).innerHTML = selectedItem
 }
+let person = prompt("Please enter your name");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
