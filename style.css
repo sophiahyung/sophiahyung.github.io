@@ -97,6 +97,7 @@ button {
   color:white;
   display:flex;
   justify-content: center;
+  align-self: center;
   font-size: 20px;
 }
 .playlistBio {
