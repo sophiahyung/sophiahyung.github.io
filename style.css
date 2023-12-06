@@ -101,6 +101,7 @@ button {
 }
 .playlistBio {
   color:white;
+  text-align: left;
 }
 #randomizedNodeID {
   color:white; 
