@@ -8,6 +8,5 @@ function Randomizer() {
 }
 let person = prompt("Please enter your name");
 
-if (person != null) {
     document.getElementById("welcomeName").innerHTML = person;
-}
+    console.log(person);
