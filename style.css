@@ -27,6 +27,16 @@ h2 {
   text-align: center;
 }
 
+#welcome {
+  color: white;
+  text-align: center;
+}
+
+#welcomeName {
+  color: white;
+  text-align: center;
+}
+
 /* font used for the website */
 @font-face {
     font-family: sans-serif;
