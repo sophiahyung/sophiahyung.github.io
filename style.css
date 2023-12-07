@@ -13,7 +13,7 @@ body {
 .grid-container {
   display: flex;
   justify-content: space-between;
-  align-items: centre;
+  align-items: center;
 }
 
 /* color for h1 and h2 as well as tex alignment */
@@ -121,5 +121,10 @@ button {
 .othergridcontainer {
   display: flex;
   justify-content: space-between;
-  align-items: centre;
+  align-items: center;
+}
+.playlistContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
