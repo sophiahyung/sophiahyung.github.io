@@ -7,6 +7,6 @@ function Randomizer() {
     document.getElementById(`randomizedNodeID`).innerHTML = selectedItem
 }
 setTimeout(() => {
-    document.getElementById("welcomeName").innerHTML = prompt("Please enter your name");
+    document.getElementById("welcomeName").innerHTML = `${prompt("Please enter your name")}!`;
     console.log(person);
 }, 3000)
