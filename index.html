@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <!--the linking from html to the css and js  -->
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Sophia & Hailey's Website</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
 
-<head>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <img href="images/image_2023-12-05_205431023.png">
-</head>
-
-<!--   top Part of the website, title, heading, and bios -->
 <body>
-  <h1 id="Title">Music Website</h1>
-  <h2 id="subTitle">By Sophia and Hailey</h2>
-  <h3 id="welcome">Welcome, </h3><h3 id="welcomeName"></h3>
-  <div class="grid-container">
-    <div class="child1">
-      <h3 id="aboutSophia">All About Sophia</h3>
-      <p id="sophiaBio">Sophia was born on February 15th 2008, making her 15 years old. She is a sophomore at New Wester Charter and plays on the varsity volleyball team. Her favorite song of all time is Dancing Queen by ABBA, and her favorite artist is TV Girl. </p>
+  <!-- partial:index.partial.html -->
+  <html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <img href="images/image_2023-12-05_205431023.png">
+  </head>
+
+  <!--   top Part of the website, title, heading, and bios -->
+
+  <body>
+    <h1 id="Title">Music Website</h1>
+    <h2 id="subTitle">By Sophia and Hailey</h2>
+    <h3 id="welcome">Welcome, </h3>
+    <h3 id="welcomeName"></h3>
+    <div class="grid-container">
+      <div class="child1">
+        <h3 id="aboutSophia">All About Sophia</h3>
+        <p id="sophiaBio">Sophia was born on February 15th 2008, making her 15 years old. She is a sophomore at New Wester Charter and plays on the varsity volleyball team. Her favorite song of all time is Dancing Queen by ABBA, and her favorite artist is TV Girl. </p>
+      </div>
+      <div class="child2">
+        <h4 id="aboutHailey">All About Hailey</h4>
+        <p id="haileyBio">Hailey (she/they) was born on April 11th 2007, making her 16 years old. She is a junior at New Wester Charter. Her favorite song currently is either midnight love by girl in red or Don't Let Me Go by Cigarettes After Sex, and her favorite artist is Cigarettes After Sex. </p>
+      </div>
+      <br></br>
     </div>
-  <div class="child2">
-    <h4 id="aboutHailey">All About Hailey</h4>
-    <p id="haileyBio">Hailey (she/they) was born on April 11th 2007, making her 16 years old. She is a junior at New Wester Charter. Her favorite song currently is either midnight love by girl in red or Don't Let Me Go by Cigarettes After Sex, and her favorite artist is Cigarettes After Sex. </p>
-  </div>
-    <br></br>
-  </div>
 
-<!--   Playlists -->
-  <div class="othergridcontainer">
-    <h5>Playlists</h5>
-<!--   Sophia's Playlist with embedded link -->
-    <p class="playlistBio">In Sophia's playlist, 🤟, it consists of many R&B artists like Frank Ocean, Steve Lacy, and much more. She made this playlist for homework, light studying, and vibes for chilling in her room.  </p>
-    <br></br>
-    <p class="playlistBio1">In hailey's playlist, ,.....</p>
-  </div>
+    <!--   Playlists -->
+    <div class="othergridcontainer">
+      <h5>Playlists</h5>
+      <!--   Sophia's Playlist with embedded link -->
+      <p class="playlistBio">In Sophia's playlist, 🤟, it consists of many R&B artists like Frank Ocean, Steve Lacy, and much more. She made this playlist for homework, light studying, and vibes for chilling in her room. </p>
+      <br></br>
+      <p class="playlistBio1">In hailey's playlist, ,.....</p>
+    </div>
 
-    <iframe id="sophiaPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Blq1GRLLMaLrSmZ3oKfCS?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <h6>Sophia's Playlist Bio</h6>
-  <!-- Hailey's Playlist with embedded link -->
-    <iframe id="haileyPlaylist" class="playlistContainer" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/31zKQePSqTK1V5rLPtzWbW?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <br></br>
-<!--   Embedded link for the blended playlist -->
-    <iframe style="border-radius:12px" class="playlistContainer" src="https://open.spotify.com/embed/playlist/0SWUWfyevWosqMmYs2becD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
-<!--   The button for the randomized songs along with the output (span) -->
-  <div class="allOfButtonIncludingOutput">
-<button onclick="Randomizer()" class="randomButton">Pick a Random Song!</button>
-<span id="randomizedNodeID"></span>
-  
+    <div class="playlist-layout">
 
-  <h7>Sophia's Wrapped Playlist</h7>
-    <link rel="icon" type="image/x-icon" href="/images/shrek.ico">
+      <div class="playlist-top-wrapper">
+        <iframe id="sophiaPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Blq1GRLLMaLrSmZ3oKfCS?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h6>Sophia's Playlist Bio</h6>
+        <!-- Hailey's Playlist with embedded link -->
+        <iframe id="haileyPlaylist" class="playlistContainer" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/31zKQePSqTK1V5rLPtzWbW?utm_source=generator&theme=0" width="45%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <!--   Embedded link for the blended playlist -->
+      <iframe style="border-radius:12px" class="playlistContainer" src="https://open.spotify.com/embed/playlist/0SWUWfyevWosqMmYs2becD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    </div>
+    <!--   The button for the randomized songs along with the output (span) -->
+    <div class="allOfButtonIncludingOutput">
+      <button onclick="Randomizer()" class="randomButton">Pick a Random Song!</button>
+      <span id="randomizedNodeID"></span>
 
-</body>
+      <h7>Sophia's Wrapped Playlist</h7>
+      <link rel="icon" type="image/x-icon" href="/images/shrek.ico">
 
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
