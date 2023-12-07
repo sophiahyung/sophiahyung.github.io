@@ -114,3 +114,8 @@ button {
   justify-content: space-between;
   margin-left: 7px;
 }
+.othergridcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+}
