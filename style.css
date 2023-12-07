@@ -128,3 +128,16 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+.playlist-layout {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.playlist-top-wrapper {
+  display: flex;
+  flex-direction: row;
+}
