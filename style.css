@@ -1,12 +1,19 @@
 html {
-  
 }
-
+#subTitle {
+  font-size: 35px;
+}
+#Title {
+  font-size: 35px;
+}
+#welcome {
+  font-size: 30px;
+}
 body {
-  background-color:black;
+  background-color: black;
   font-family: sans-serif;
-  margin-left:50px;
-  margin-right:50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* flexbox container */
@@ -23,46 +30,52 @@ h1 {
 }
 
 h2 {
-  color:white;
+  color: white;
   text-align: center;
 }
 
 #welcome {
   color: white;
   text-align: center;
+  text-size: 30px;
 }
 
 #welcomeName {
   color: white;
   text-align: center;
+  text-size: 30px;
 }
 
 /* font used for the website */
 @font-face {
-    font-family: sans-serif;
-    src: url(Gotham-Bold.otf);
+  font-family: sans-serif;
+  src: url(Gotham-Bold.otf);
 }
 
 /* color and text alignment for Sophia About and Bio as well as Hailey About and Bio */
-#aboutSophia{
+#aboutSophia {
   color: white;
-  text-align:center;
+  text-align: center;
+  font-size: 35px;
 }
 #sophiaBio {
-  color:white;
-  align-items:column; 
+  color: white;
+  align-items: column;
   text-align: center;
+  font-size: 25px;
 }
 
-#aboutHailey{
-  color:white;
-  margin-left: 50px;
-  text-align:center;
-}
-#haileyBio{
-  color:white;
+#aboutHailey {
+  color: white;
   margin-left: 50px;
   text-align: center;
+  font-size: 35px;
+}
+#haileyBio {
+  color: white;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 25px;
 }
 
 /* margin for hailey's playlist */
@@ -72,11 +85,11 @@ h2 {
 
 /* hover functionality for the random song button */
 .randomButton:hover {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
-.allOfButtonIncludingOutput{
-  display:flex;
+.allOfButtonIncludingOutput {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -91,31 +104,33 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   border: none;
   border-radius: 15px;
 }
 
 /* output formatting*/
 #output {
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   justify-content: center;
   align-self: center;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .playlistBio {
-  color:white;
+  color: white;
   text-align: left;
+  font-size: 25px;
 }
 .playlistBio1 {
-  color:white;
+  color: white;
   text-align: right;
+  font-size: 25px;
 }
 #randomizedNodeID {
-  color:white; 
-  display:flex;
+  color: white;
+  display: flex;
   justify-content: space-between;
   margin-left: 7px;
 }
