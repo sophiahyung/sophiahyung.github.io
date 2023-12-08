@@ -156,3 +156,7 @@ button {
   display: flex;
   flex-direction: row;
 }
+.wrappedPlaylists {
+  display: flex;
+  flex-direction:row;
+}
