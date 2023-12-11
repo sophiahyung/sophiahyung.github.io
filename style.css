@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 
-/* color for h1 and h2 as well as tex alignment */
+/* color for h1 and h2 as well as text alignment */
 h1 {
   color: rgb(58, 215, 90);
   text-align: center;
@@ -124,6 +124,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin-left: 7px;
+  text-align: center;
 }
 .playlistBio1 {
   color: white;
@@ -131,6 +132,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin-right: 7px;
+  text-align:center;
 }
 #randomizedNodeID {
   color: white;
