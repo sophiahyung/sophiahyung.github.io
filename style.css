@@ -149,7 +149,7 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
 
 .playlist-top-wrapper {
