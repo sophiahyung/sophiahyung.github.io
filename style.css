@@ -162,6 +162,10 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+.wrappedPlaylist1 {
+  margin-left:10px;
+}
+
 .wrappedPlaylist2 {
   margin-left:50px;
 }
