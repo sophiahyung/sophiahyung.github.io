@@ -9,4 +9,4 @@ function Randomizer() {
 setTimeout(() => {
     document.getElementById("welcomeName").innerHTML = `${prompt("Please enter your name")}!`;
     console.log(person);
-}, 3000)
+}, 1000)
