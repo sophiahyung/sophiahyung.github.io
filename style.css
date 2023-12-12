@@ -141,6 +141,7 @@ button {
   display: flex;
   justify-content: space-between;
   text-align:center;
+  margin-left: 50px;
 }
 #randomizedNodeID {
   color: white;
