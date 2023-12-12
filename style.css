@@ -119,7 +119,7 @@ button {
   border-radius: 15px;
 }
 
-button:hover {
+.randomButton:hover {
   color: #04aa6d;
   background-color: #fff;
 }
