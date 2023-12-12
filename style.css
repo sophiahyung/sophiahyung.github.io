@@ -119,6 +119,11 @@ button {
   border-radius: 15px;
 }
 
+button:hover {
+  color: #04aa6d;
+  background-color: #fff;
+}
+
 /* output formatting*/
 #output {
   color: white;
