@@ -35,6 +35,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  color: white;
+  font-size: 15;
+}
+
 #welcome {
   color: white;
   text-align: center;
