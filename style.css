@@ -176,8 +176,10 @@ button {
 }
 .wrappedPlaylist1 {
   margin-left:10px;
+  width: auto;
 }
 
 .wrappedPlaylist2 {
   margin-left:50px;
+  with: auto;
 }
