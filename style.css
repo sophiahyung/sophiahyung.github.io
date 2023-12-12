@@ -19,8 +19,9 @@ body {
 /* flexbox container */
 .grid-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  justify-content: center;
 }
 
 /* color for h1 and h2 as well as text alignment */
