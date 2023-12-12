@@ -194,7 +194,10 @@ button:hover {
   margin-left:50px;
   margin-bottom: 30px;
 }
-
+img{
+  transition: 2s;
+}
 img:hover {
   transform: scale(0.9);
+  transition: 2s;
 }
