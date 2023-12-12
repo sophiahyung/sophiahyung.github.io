@@ -58,6 +58,13 @@ p {
   src: url(Gotham-Bold.otf);
 }
 
+@keyframes backGrad {
+  0%   {background-color: black;}
+  25%  {background-color: darkblue;}
+  50%  {background-color: darkred;}
+  100% {background-color: black;}
+}
+
 /* color and text alignment for Sophia About and Bio as well as Hailey About and Bio */
 #aboutSophia {
   color: white;
