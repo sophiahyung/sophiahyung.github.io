@@ -84,6 +84,10 @@ p {
   font-size: 25px;
 }
 
+#sophiaPlaylist {
+  margin-left: 0px;
+}
+
 /* margin for hailey's playlist */
 #haileyPlaylist {
   margin-left: 50px;
