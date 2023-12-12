@@ -159,6 +159,8 @@ button {
 .playlist-top-wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content:center;
 }
 .wrappedPlaylists {
   display: flex;
