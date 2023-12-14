@@ -159,6 +159,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin-left: 7px;
+  font-size: 30px;
   font-weight: bold;
 }
 /* formating for the container that includes both playlist bios */
