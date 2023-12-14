@@ -137,6 +137,8 @@ button {
 }
 span, #welcomeName {
   font-size: 30px;
+}
+span, #randomizedNodeID {
   font-weight: bold;
 }
 /* formatting for sophia's playlist's bio */
