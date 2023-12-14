@@ -135,7 +135,7 @@ button {
   margin-top: 50px;
   font-size: 30px;
 }
-span {
+span, #welcomeName {
   font-size: 30px;
   font-weight: bold;
 }
